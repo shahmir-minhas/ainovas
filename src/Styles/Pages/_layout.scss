@@ -1,0 +1,22 @@
+.topbar {
+  padding: 0 140px;
+  height: 112px;
+  a {
+    text-decoration: none;
+  }
+  .logo {
+    width: 256px;
+    height: 80px;
+  }
+  .navigation {
+    font-size: 22px;
+    color: #1a0330;
+    margin-left: 90px;
+    padding-bottom: 9px;
+  }
+  .active {
+    font-size: 22px;
+    color: #ff4d00;
+    border-bottom: 6px solid #ff4d00;
+  }
+}

@@ -1,0 +1,300 @@
+.hero-wrapper {
+  padding: 292px 0 223px 0;
+  .content {
+    h1:first-child {
+      color: #ff4d00;
+      font-size: 96px;
+      font-weight: bold;
+      margin: 0;
+    }
+    h1:nth-child(2) {
+      color: #ff4d00;
+      font-size: 175px;
+      font-weight: bold;
+      margin: 0;
+    }
+    h3 {
+      color: #6721aa;
+      font-size: 40px;
+      letter-spacing: 0px;
+    }
+
+    .contact-us {
+      width: 286px;
+      height: 59px;
+      margin: 80px auto 0 auto;
+      display: flex;
+      align-items: center;
+      position: relative;
+
+      .arrow-right {
+        color: #ff4d00;
+      }
+      button {
+        width: 124px;
+        height: 59px;
+        border: 2px solid #ff4d00;
+        border-radius: 32px;
+        opacity: 1;
+        background-color: #ffffff;
+        transition: all 0.5s;
+      }
+      button:hover {
+        width: 246px;
+        height: 59px;
+      }
+      span {
+        font-size: 29px;
+        color: #ff4d00;
+        font-weight: bold;
+        position: absolute;
+        right: 0px;
+        top: 11px;
+      }
+      span:hover {
+        font-size: 25px;
+        right: 5px;
+        top: 11px;
+      }
+    }
+  }
+}
+// =============================================================
+// ========================== Tabs Section =====================
+// =============================================================
+.tabs-section {
+  height: 100%;
+  //   Ant tabs
+  .ant-tabs {
+    .ant-tabs-tab {
+      margin-right: 89px;
+      margin-left: 0;
+    }
+    .ant-tabs-tab-active {
+      color: #23093b;
+      font-size: 30px;
+      font-weight: bold;
+      opacity: 1;
+      .ant-tabs-tab-btn {
+        opacity: 1;
+      }
+    }
+
+    .ant-tabs-tab-btn {
+      font-size: 30px;
+      color: #23093b;
+      opacity: 0.45;
+    }
+    .ant-tabs-ink-bar {
+      background-color: #ff4d00;
+    }
+  }
+  .tab-content-wrapper {
+    padding-top: 127px;
+
+    .tab-content {
+      text-align: left;
+      margin-left: 79px;
+      width: 350px;
+      h3 {
+        color: #1d1d1d;
+        font-size: 50px;
+        font-weight: bold;
+      }
+      small {
+        color: #5a5a5a;
+        font-size: 20px;
+      }
+      p {
+        color: #1d1d1d;
+        font-size: 20px;
+        margin: 38px 0 31px 0;
+      }
+      button {
+        width: 124px;
+        height: 59px;
+        border: 2px solid #ff4d00;
+        border-radius: 32px;
+        opacity: 1;
+        background-color: #ffffff;
+      }
+      span {
+        font-size: 25px;
+        color: #1a0330;
+        margin-left: 23px;
+      }
+    }
+  }
+}
+
+// =============================================================
+// ========================== Section =====================
+// =============================================================
+.detail-section {
+  margin: 40px 0;
+  .content {
+    text-align: left;
+    width: 350px;
+    h3 {
+      color: #1d1d1d;
+      font-size: 50px;
+      font-weight: bold;
+    }
+    small {
+      color: #5a5a5a;
+      font-size: 20px;
+    }
+    p {
+      color: #1d1d1d;
+      font-size: 20px;
+      margin: 38px 0 31px 0;
+    }
+    img {
+      margin-left: 79px;
+      width: 561px;
+      height: 571px;
+    }
+    button {
+      width: 124px;
+      height: 59px;
+      border: 2px solid #ff4d00;
+      border-radius: 32px;
+      opacity: 1;
+      background-color: #ffffff;
+    }
+    span {
+      font-size: 25px;
+      color: #1a0330;
+      margin-left: 23px;
+    }
+  }
+}
+.heading {
+  padding: 147px 0 117px;
+  h1 {
+    color: #1d1d1d;
+    font-size: 70px;
+    margin: 0;
+    font-weight: bold;
+  }
+}
+// =============================================================
+// ========================== Other Information =====================
+// =============================================================
+.information-section {
+  .info-box {
+    height: 525px;
+    padding: 129px 390px 55px 95px;
+    background: transparent url("../../Assets/info-background.png") 0% 0%
+      no-repeat padding-box;
+    background-size: cover;
+    opacity: 1;
+    text-align: left;
+    h5 {
+      font-size: 40px;
+      color: #f5f5f5;
+    }
+    p {
+      color: #f5f5f5;
+      font-size: 28px;
+    }
+    button {
+      width: 107px;
+      height: 59px;
+      border: 2px solid #ffffff;
+      border-radius: 32px;
+      opacity: 1;
+      background: transparent;
+      color: #ffffff;
+    }
+    span {
+      font-size: 25px;
+      color: #ffffff;
+      margin-left: 23px;
+    }
+  }
+  .info-box-secondary {
+    height: 569px;
+    text-align: left;
+    h5 {
+      font-size: 40px;
+      color: #1a0330;
+    }
+    p {
+      color: #1a0330;
+      font-size: 28px;
+    }
+    span {
+      color: #5a5a5a;
+      font-size: 20px;
+      margin-bottom: 12px;
+      font-weight: bold;
+    }
+    .info-box-img {
+      width: 415px;
+      height: 569px;
+    }
+    &__content-one {
+      padding: 104px 42px 77px 95px;
+    }
+    &__content-two {
+      padding: 104px 57px 77px 60px;
+    }
+  }
+}
+// =============================================================
+// ========================== Our Services =====================
+// =============================================================
+.services {
+  padding: 0 250px;
+  &__card {
+    padding: 57px 52px 49px 51px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 15px #00000005;
+    opacity: 1;
+    margin-bottom: 90px;
+
+    width: 431px;
+    height: 383px;
+    h5 {
+      color: #1d1d1d;
+      font-size: 28px;
+      font-weight: bold;
+      margin: 36px 0 18px 0;
+    }
+    p {
+      font-size: 24px;
+      color: #1d1d1d;
+    }
+  }
+}
+
+.call-to-action {
+  padding: 92px;
+  height: 435px;
+  background: #23093b 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom: 168px;
+  h1 {
+    font-size: 86px;
+    color: #ff4d00;
+    margin: 0;
+  }
+  p {
+    color: #fffdfc;
+    font-size: 46px;
+  }
+  span {
+    font-size: 25px;
+    color: #fffdfc;
+    margin-left: 23px;
+  }
+  button {
+    background: transparent;
+    width: 107px;
+    height: 59px;
+    border: 2px solid #fffdfc;
+    border-radius: 32px;
+    opacity: 1;
+  }
+}

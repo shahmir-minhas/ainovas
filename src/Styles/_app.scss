@@ -1,0 +1,10 @@
+//antd
+@import "antd/dist/antd.css"; // or 'antd/dist/antd.less'
+//
+@import "./variables";
+@import "./typography";
+//navbar
+@import "./Pages/layout";
+
+//pages
+@import "./Pages/home";
