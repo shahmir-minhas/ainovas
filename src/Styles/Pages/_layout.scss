@@ -20,3 +20,42 @@
     border-bottom: 6px solid #ff4d00;
   }
 }
+.footer {
+  &__top-bar {
+    padding: 75px 130px 0 112px;
+    height: 360px;
+    justify-content: space-between;
+    background: #f2f2f2 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    ul {
+      list-style: none;
+      margin-left: 131px;
+      li {
+        color: #1a0330;
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 10px;
+        a {
+          color: #1a0330;
+          font-size: 20px;
+          text-align: left;
+        }
+        h4 {
+          font-size: 32px;
+          color: #1a0330;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  &__bottom-bar {
+    background: #1a0330;
+    color: #ffffff;
+    height: 87px;
+    padding: 29px 0;
+    p {
+      font-size: 21px;
+    }
+  }
+}

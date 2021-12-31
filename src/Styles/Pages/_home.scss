@@ -18,45 +18,45 @@
       font-size: 40px;
       letter-spacing: 0px;
     }
-
-    .contact-us {
-      width: 286px;
+    .btn-contact-us {
+      width: 124px;
       height: 59px;
-      margin: 80px auto 0 auto;
-      display: flex;
-      align-items: center;
+      margin: 80px auto 0;
+      border: 2px solid #ff4d00;
+      border-radius: 32px;
+      opacity: 1;
+      background: transparent;
       position: relative;
-
-      .arrow-right {
-        color: #ff4d00;
-      }
-      button {
-        width: 124px;
-        height: 59px;
-        border: 2px solid #ff4d00;
-        border-radius: 32px;
-        opacity: 1;
-        background-color: #ffffff;
-        transition: all 0.5s;
-      }
-      button:hover {
-        width: 246px;
-        height: 59px;
-      }
-      span {
-        font-size: 29px;
+      transition: all 0.5s;
+      &::after {
+        font-size: 25px;
         color: #ff4d00;
         font-weight: bold;
+        margin-left: 28px;
+        content: "Contact Us";
         position: absolute;
-        right: 0px;
-        top: 11px;
+        left: 110px;
+        width: 150px;
+        transition: all 0.5s;
       }
-      span:hover {
-        font-size: 25px;
-        right: 5px;
-        top: 11px;
+      &::before {
+        content: '';
+      }
+      &:hover {
+        width: 246px;
+        transition: all 0.5s;
+        &::after {
+          left: 20px;
+          transition: all 0.5s;
+        }
       }
     }
+    // .btn-contact-us-content {
+    //   font-size: 25px;
+    //   color: #ff4d00;
+    //   font-weight: bold;
+    //   margin-left: 28px;
+    // }
   }
 }
 // =============================================================
@@ -128,7 +128,7 @@
 }
 
 // =============================================================
-// ========================== Section =====================
+// ========================== Section Details =====================
 // =============================================================
 .detail-section {
   margin: 40px 0;
@@ -247,12 +247,15 @@
 // =============================================================
 .services {
   padding: 0 250px;
+  .height-550 {
+    height: 550px;
+  }
   &__card {
     padding: 57px 52px 49px 51px;
-    background: #ffffff 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 15px #00000005;
-    opacity: 1;
+    background: transparent;
     margin-bottom: 90px;
+    top: 0;
+    right: 16px;
 
     width: 431px;
     height: 383px;
@@ -267,8 +270,40 @@
       color: #1d1d1d;
     }
   }
-}
+  .triangle {
+    position: relative;
+    background-color: #ffffff;
+    text-align: left;
+    margin-left: 100px;
+  }
+  .triangle:before,
+  .triangle:after {
+    content: "";
+    position: absolute;
+    background-color: inherit;
+  }
+  .triangle,
+  .triangle:before,
+  .triangle:after {
+    width: 18em;
+    height: 18em;
+    border-top-right-radius: 30%;
+  }
 
+  .triangle {
+    transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866);
+  }
+  .triangle:before {
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707)
+      translate(0, -50%);
+  }
+  .triangle:after {
+    transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+  }
+}
+// =============================================================
+// ========================== CALL TO ACTION =====================
+// =============================================================
 .call-to-action {
   padding: 92px;
   height: 435px;

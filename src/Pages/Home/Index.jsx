@@ -15,10 +15,10 @@ const Index = () => {
           <h1>ADVANCE</h1>
           <h1>INOVATION</h1>
           <h3>END-TO-END CONSULTANCY & SOLUTION PROVIDER</h3>
-          <div className="contact-us">
-            <button className="">
+          <div className="">
+            <button className="btn-contact-us d-flex justify-content-center align-items-center">
               <ArrowRight className="arrow-right" />
-              <span className="">Contact Us</span>
+              {/* <span className="btn-contact-us-content">Contact Us</span> */}
             </button>
           </div>
         </div>
@@ -79,6 +79,7 @@ const Index = () => {
       {/* SERVICES */}
 
       <Services />
+
       <section className="call-to-action">
         <h1>How can we help you ?</h1>
         <p>Get in touch with us</p>
