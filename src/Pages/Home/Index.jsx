@@ -5,7 +5,8 @@ import TabsSection from "./TabsSection";
 import Shubham from "../../Assets/shubham.png";
 import BlockChain from "../../Assets/blockchain.png";
 import Information from "./Information";
-import Services from "./Services";
+import Services from "../../Components/Common/Services";
+import CallToAction from "./../../Components/Common/CallToACtion";
 
 const Index = () => {
   return (
@@ -80,16 +81,7 @@ const Index = () => {
 
       <Services />
 
-      <section className="call-to-action">
-        <h1>How can we help you ?</h1>
-        <p>Get in touch with us</p>
-        <div>
-          <button>
-            <ArrowRightWhite />
-          </button>
-          <span>Contact Us</span>
-        </div>
-      </section>
+      <CallToAction />
     </>
   );
 };

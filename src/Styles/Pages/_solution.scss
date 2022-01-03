@@ -1,0 +1,80 @@
+.solution {
+  &__banner {
+    height: 211px;
+    background: #ff4d00;
+
+    padding: 54px 0;
+    h1 {
+      font-size: 70px;
+      font-weight: bold;
+      color: #f9f9f9;
+    }
+  }
+  .experiance-section {
+    padding: 124px 250px 90px;
+    h1 {
+      font-size: 70px;
+      color: #ff4d00;
+      margin: 0;
+      margin-bottom: 183px;
+    }
+    h4 {
+      color: #23093b;
+      font-size: 35px;
+      font-weight: bold;
+      margin: 0;
+      margin-bottom: 132px;
+    }
+    p {
+      color: #23093b;
+      font-size: 31px;
+      margin: 0;
+      margin-top: 32px;
+    }
+  }
+  .digital-transformation {
+    padding: 90px 0 90px;
+    h2 {
+      color: #23093b;
+      font-size: 55px;
+      font-weight: bold;
+      margin: 0;
+      margin-bottom: 110px;
+    }
+    ul {
+      margin-bottom: 55px;
+    }
+    li {
+      font-size: 28px;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: baseline;
+      h4 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #23093b;
+        margin: 0;
+        margin-left: 75px;
+      }
+      .gt-icon {
+        width: 15px;
+        height: 24px;
+        margin-right: 66px;
+      }
+      p:last-child {
+        font-size: 27px;
+        color: #1d1d1d;
+      }
+    }
+    .background-img-primary {
+      background: transparent url("../../Assets/Component 33 – 1.png") 0% 0%
+        no-repeat padding-box;
+      opacity: 1;
+    }
+    .background-img-secondary {
+        background: transparent url("../../Assets/Component 34 – 1.png") 0% 0%
+          no-repeat padding-box;
+        opacity: 1;
+      }
+  }
+}

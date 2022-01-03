@@ -1,0 +1,11 @@
+<svg id="Component_36_1" data-name="Component 36 – 1" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_153" data-name="Group 153">
+    <ellipse id="Ellipse_432" data-name="Ellipse 432" cx="40" cy="40" rx="40" ry="40" transform="translate(0 0)" fill="#ff4d00"/>
+    <g id="Group_152" data-name="Group 152" transform="translate(18.213 26.363)">
+      <path id="Path_1271" data-name="Path 1271" d="M2663.643,3912.606l20.565,15.219a1.977,1.977,0,0,0,2.252,0l20.571-15.163Z" transform="translate(-2663.55 -3912.606)" fill="#fff"/>
+      <path id="Path_1272" data-name="Path 1272" d="M2677.7,3935.239l-14.311,13.352a2.56,2.56,0,0,1-.388-1.31v-22.89Z" transform="translate(-2663 -3922.684)" fill="#fff"/>
+      <path id="Path_1273" data-name="Path 1273" d="M2700.8,4005.932l14.408,13.458a3.021,3.021,0,0,1-1.347.3h-37.617a3.029,3.029,0,0,1-1.241-.254l14.391-13.446,5.659,4.192Z" transform="translate(-2673.264 -3992.421)" fill="#fff"/>
+      <path id="Path_1274" data-name="Path 1274" d="M2877.833,3924.378v22.892a2.585,2.585,0,0,1-.356,1.212l-14.229-13.321Z" transform="translate(-2834.259 -3922.674)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
