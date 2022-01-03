@@ -15,7 +15,7 @@ const Index = () => {
       <AnimatedLogo className="animate-logo" />
 
       <section className="hero-wrapper">
-        <div className="content w3-animate-zoom">
+        <div className="content animate-hero">
           <h1 className="">ADVANCE</h1>
           <h1>INOVATION</h1>
           <h3>END-TO-END CONSULTANCY & SOLUTION PROVIDER</h3>
