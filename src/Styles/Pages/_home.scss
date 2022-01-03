@@ -6,21 +6,20 @@
   to {
     width: 5500px;
     height: 5500px;
-    top: -330%;
-    left: -98%;
+    top: -33%;
+    left: -100%;
   }
 }
 
 .animated-logo {
   position: absolute;
-  z-index: -10;
+  z-index: -1;
+  top: 10%;
+  left: 50%;
+
   animation-name: example;
   animation-duration: 4s;
   animation-fill-mode: forwards;
-  top: 100%;
-  left: 50%;
-  overflow: hidden;
-  object-fit: cover;
 }
 
 .hero-wrapper {

@@ -9,8 +9,10 @@ import AnimatedButton from "../../Components/Common/AnimatedButton";
 import { ReactComponent as AnimatedLogo } from "../../Assets/Icons/background-logo.svg";
 const Index = () => {
   return (
-    <div className="home">
+    <div className="home position-relative overflow-hidden">
+      {/* animated background logo */}
       <AnimatedLogo className="animated-logo" />
+
       <section className="hero-wrapper">
         <div className="content">
           <h1>ADVANCE</h1>
