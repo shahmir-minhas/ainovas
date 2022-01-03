@@ -1,27 +1,22 @@
 import React from "react";
-import { ReactComponent as ArrowRight } from "../../Assets/Icons/arrow-right.svg";
-import { ReactComponent as ArrowRightWhite } from "../../Assets/Icons/arrow-right-white.svg";
 import TabsSection from "./TabsSection";
 import Shubham from "../../Assets/shubham.png";
 import BlockChain from "../../Assets/blockchain.png";
 import Information from "./Information";
 import Services from "../../Components/Common/Services";
 import CallToAction from "./../../Components/Common/CallToACtion";
-
+import AnimatedButton from "../../Components/Common/AnimatedButton";
+import { ReactComponent as AnimatedLogo } from "../../Assets/Icons/background-logo.svg";
 const Index = () => {
   return (
-    <>
+    <div className="home">
+      <AnimatedLogo className="animated-logo" />
       <section className="hero-wrapper">
         <div className="content">
           <h1>ADVANCE</h1>
           <h1>INOVATION</h1>
           <h3>END-TO-END CONSULTANCY & SOLUTION PROVIDER</h3>
-          <div className="">
-            <button className="btn-contact-us d-flex justify-content-center align-items-center">
-              <ArrowRight className="arrow-right" />
-              {/* <span className="btn-contact-us-content">Contact Us</span> */}
-            </button>
-          </div>
+          <AnimatedButton className="primary" />
         </div>
       </section>
       {/* 
@@ -42,10 +37,7 @@ const Index = () => {
               tomorrow’s requirements We challenge the status quo and adapt
             </p>
             <div>
-              <button>
-                <ArrowRight />
-              </button>
-              <span>Read More</span>
+              <AnimatedButton className="secondary" />
             </div>
           </div>
           <img src={Shubham} alt="" />
@@ -64,12 +56,7 @@ const Index = () => {
               We challenge the status quo and adapt practices and solutions to
               tomorrow’s requirements We challenge the status quo and adapt
             </p>
-            <div>
-              <button>
-                <ArrowRight />
-              </button>
-              <span>Read More</span>
-            </div>
+            <AnimatedButton className="secondary" />
           </div>
         </div>
       </section>
@@ -82,7 +69,7 @@ const Index = () => {
       <Services />
 
       <CallToAction />
-    </>
+    </div>
   );
 };
 

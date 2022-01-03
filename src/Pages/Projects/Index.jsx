@@ -6,6 +6,7 @@ import George from "../../Assets/george.png";
 import Donald from "../../Assets/donald.png";
 import Luka from "../../Assets/luka.png";
 import { ReactComponent as ArrowRightWhite } from "../../Assets/Icons/arrow-right-white.svg";
+import CallToAction from "./../../Components/Common/CallToACtion";
 
 const Index = () => {
   return (
@@ -132,16 +133,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-        <section className="call-to-action">
-          <h1>How can we help you ?</h1>
-          <p>Get in touch with us</p>
-          <div>
-            <button>
-              <ArrowRightWhite />
-            </button>
-            <span>Contact Us</span>
-          </div>
-        </section>
+        <CallToAction />
       </div>
     </>
   );

@@ -1,3 +1,28 @@
+@keyframes example {
+  from {
+    width: 56px;
+    height: 65px;
+  }
+  to {
+    width: 5500px;
+    height: 5500px;
+    top: -330%;
+    left: -98%;
+  }
+}
+
+.animated-logo {
+  position: absolute;
+  z-index: -10;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  top: 100%;
+  left: 50%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
 .hero-wrapper {
   padding: 292px 0 223px 0;
   .content {
@@ -17,46 +42,11 @@
       color: #6721aa;
       font-size: 40px;
       letter-spacing: 0px;
+      margin-bottom: 80px;
     }
-    .btn-contact-us {
-      width: 124px;
-      height: 59px;
-      margin: 80px auto 0;
-      border: 2px solid #ff4d00;
-      border-radius: 32px;
-      opacity: 1;
-      background: transparent;
-      position: relative;
-      transition: all 0.5s;
-      &::after {
-        font-size: 25px;
-        color: #ff4d00;
-        font-weight: bold;
-        margin-left: 28px;
-        content: "Contact Us";
-        position: absolute;
-        left: 110px;
-        width: 150px;
-        transition: all 0.5s;
-      }
-      &::before {
-        content: '';
-      }
-      &:hover {
-        width: 246px;
-        transition: all 0.5s;
-        &::after {
-          left: 20px;
-          transition: all 0.5s;
-        }
-      }
+    button {
+      margin: auto;
     }
-    // .btn-contact-us-content {
-    //   font-size: 25px;
-    //   color: #ff4d00;
-    //   font-weight: bold;
-    //   margin-left: 28px;
-    // }
   }
 }
 // =============================================================
@@ -64,6 +54,7 @@
 // =============================================================
 .tabs-section {
   height: 100%;
+  background-color: #ffffff;
   //   Ant tabs
   .ant-tabs {
     .ant-tabs-tab {
@@ -110,14 +101,7 @@
         font-size: 20px;
         margin: 38px 0 31px 0;
       }
-      button {
-        width: 124px;
-        height: 59px;
-        border: 2px solid #ff4d00;
-        border-radius: 32px;
-        opacity: 1;
-        background-color: #ffffff;
-      }
+
       span {
         font-size: 25px;
         color: #1a0330;
@@ -132,6 +116,7 @@
 // =============================================================
 .detail-section {
   margin: 40px 0;
+  background-color: #ffffff;
   .content {
     text-align: left;
     width: 350px;
@@ -153,14 +138,6 @@
       margin-left: 79px;
       width: 561px;
       height: 571px;
-    }
-    button {
-      width: 124px;
-      height: 59px;
-      border: 2px solid #ff4d00;
-      border-radius: 32px;
-      opacity: 1;
-      background-color: #ffffff;
     }
     span {
       font-size: 25px;
@@ -197,15 +174,6 @@
     p {
       color: #f5f5f5;
       font-size: 28px;
-    }
-    button {
-      width: 107px;
-      height: 59px;
-      border: 2px solid #ffffff;
-      border-radius: 32px;
-      opacity: 1;
-      background: transparent;
-      color: #ffffff;
     }
     span {
       font-size: 25px;
@@ -254,8 +222,7 @@
     padding: 57px 52px 49px 51px;
     background: transparent;
     margin-bottom: 90px;
-    top: 0;
-    right: 16px;
+    left: 0;
 
     width: 431px;
     height: 383px;
@@ -325,11 +292,6 @@
     margin-left: 23px;
   }
   button {
-    background: transparent;
-    width: 107px;
-    height: 59px;
-    border: 2px solid #fffdfc;
-    border-radius: 32px;
-    opacity: 1;
+    margin: auto;
   }
 }

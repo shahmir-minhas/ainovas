@@ -1,0 +1,158 @@
+// ==================================================================
+// ==========================  Animated button  =====================
+// ==================================================================
+$primary: #ff4d00;
+$secondary: #1a0330;
+$ternary: #ffffff;
+
+@mixin animated-btn {
+  height: 59px;
+  border-radius: 32px;
+  opacity: 1;
+  background: transparent;
+  position: relative;
+  transition: all 0.5s;
+}
+
+@mixin animated-btn-primary {
+  width: 124px;
+  border: 2px solid $primary;
+}
+@mixin animated-btn-secondary {
+  width: 124px;
+  border: 2px solid $secondary;
+}
+
+@mixin animated-btn-ternary {
+  width: 124px;
+  border: 2px solid $ternary;
+}
+
+@mixin primary-content {
+  color: $primary;
+  font-size: 25px;
+  font-weight: bold;
+  content: "Contact Us";
+}
+@mixin secondary-content {
+  color: $secondary;
+  font-size: 25px;
+  font-weight: bold;
+  content: "Read More";
+}
+@mixin ternary-content {
+  color: $ternary;
+  font-size: 25px;
+  font-weight: bold;
+  content: "Read More";
+}
+
+// ==================================================================
+// ==========================  Primary =====================
+// ==================================================================
+
+.animated-button-primary {
+  @include animated-btn;
+  @include animated-btn-primary;
+  &::after {
+    @include primary-content;
+    margin-left: 28px;
+    position: absolute;
+    left: 110px;
+    width: 150px;
+    transition: all 0.5s;
+  }
+  &::before {
+    color: $primary;
+    content: "\2192";
+    font-size: 50px;
+    text-align: left;
+    transition: all 0.5s;
+  }
+  &:hover,
+  :focus {
+    width: 246px;
+    transition: all 0.5s;
+    &::after {
+      left: 50px;
+      transition: all 0.5s;
+    }
+    &::before {
+      position: absolute;
+      left: 15px;
+      transition: all 0.5s;
+    }
+  }
+}
+// ==================================================================
+// ==========================  Secondary =====================
+// ==================================================================
+.animated-button-secondary {
+  @include animated-btn;
+  @include animated-btn-secondary;
+  &::after {
+    @include secondary-content;
+    margin-left: 28px;
+    position: absolute;
+    left: 110px;
+    width: 150px;
+    transition: all 0.5s;
+  }
+  &::before {
+    color: $secondary;
+    content: "\2192";
+    font-size: 50px;
+    text-align: left;
+    transition: all 0.5s;
+  }
+  &:hover,
+  :focus {
+    width: 246px;
+    transition: all 0.5s;
+    &::after {
+      left: 50px;
+      transition: all 0.5s;
+    }
+    &::before {
+      position: absolute;
+      left: 15px;
+      transition: all 0.5s;
+    }
+  }
+}
+// ==================================================================
+// ==========================  Ternary =====================
+// ==================================================================
+.animated-button-ternary {
+  @include animated-btn;
+  @include animated-btn-ternary;
+  &::after {
+    @include ternary-content;
+    margin-left: 28px;
+    position: absolute;
+    left: 110px;
+    width: 150px;
+    transition: all 0.5s;
+  }
+  &::before {
+    color: $ternary;
+    content: "\2192";
+    font-size: 50px;
+    text-align: left;
+    transition: all 0.5s;
+  }
+  &:hover,
+  :focus {
+    width: 246px;
+    transition: all 0.5s;
+    &::after {
+      left: 50px;
+      transition: all 0.5s;
+    }
+    &::before {
+      position: absolute;
+      left: 15px;
+      transition: all 0.5s;
+    }
+  }
+}

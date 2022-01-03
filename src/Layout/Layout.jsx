@@ -11,7 +11,9 @@ const Layout = ({ children }) => {
   return (
     <main>
       <nav className="topbar d-flex justify-content-between align-items-center">
-        <Logo className="logo" />
+        <Link to="/">
+          <Logo className="logo" />
+        </Link>
         <div>
           <ul className="d-flex list-unstyled m-0">
             <li>

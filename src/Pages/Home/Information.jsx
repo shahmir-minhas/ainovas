@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { ReactComponent as ArrowRightWhite } from "../../Assets/Icons/arrow-right-white.svg";
 import RightImg from "../../Assets/right-img.png";
+import AnimatedButton from './../../Components/Common/AnimatedButton';
 
 const Information = () => {
   return (
@@ -16,10 +17,7 @@ const Information = () => {
               We challenge the status quo and adapt practices and solutions to
               tomorrow’s requirements We challenge the status quo and adapt
             </p>
-            <button>
-              <ArrowRightWhite />
-            </button>
-            <span>Read More</span>
+            <AnimatedButton className='ternary'/>
           </div>
         </div>
         <div className="col-6 p-0">
@@ -29,10 +27,7 @@ const Information = () => {
               We challenge the status quo and adapt practices and solutions to
               tomorrow’s requirements We challenge the status quo and adapt
             </p>
-            <button>
-              <ArrowRightWhite />
-            </button>
-            <span>Read More</span>
+            <AnimatedButton className='ternary'/>
           </div>
         </div>
       </div>
