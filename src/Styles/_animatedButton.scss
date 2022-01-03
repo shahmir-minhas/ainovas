@@ -27,6 +27,10 @@ $ternary: #ffffff;
   width: 124px;
   border: 2px solid $ternary;
 }
+@mixin animated-btn-back {
+  width: 124px;
+  border: 2px solid $primary;
+}
 
 @mixin primary-content {
   color: $primary;
@@ -45,6 +49,12 @@ $ternary: #ffffff;
   font-size: 25px;
   font-weight: bold;
   content: "Read More";
+}
+@mixin back-content {
+  color: $primary;
+  font-size: 25px;
+  font-weight: bold;
+  content: "Back";
 }
 
 // ==================================================================
@@ -152,6 +162,43 @@ $ternary: #ffffff;
     &::before {
       position: absolute;
       left: 15px;
+      transition: all 0.5s;
+    }
+  }
+}
+
+// ==================================================================
+// ==========================  BACK =====================
+// ==================================================================
+.animated-button-back {
+  @include animated-btn;
+  @include animated-btn-back;
+  &::after {
+    @include back-content;
+    margin-left: 28px;
+    position: absolute;
+    right: 110px;
+    width: 150px;
+    transition: all 0.5s;
+  }
+  &::before {
+    color: $primary;
+    content: " \2190";
+    font-size: 50px;
+    text-align: left;
+    transition: all 0.5s;
+  }
+  &:hover,
+  :focus {
+    width: 184px;
+    transition: all 0.5s;
+    &::after {
+      right: 50px;
+      transition: all 0.5s;
+    }
+    &::before {
+      position: absolute;
+      right: 15px;
       transition: all 0.5s;
     }
   }

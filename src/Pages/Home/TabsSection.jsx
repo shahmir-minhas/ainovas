@@ -1,8 +1,8 @@
 import React from "react";
 import { Tabs } from "antd";
-import { ReactComponent as ArrowRight } from "../../Assets/Icons/arrow-right.svg";
 import BlockChainImg from "../../Assets/blockchain.png";
-import AnimatedButton from './../../Components/Common/AnimatedButton';
+import AnimatedButton from "./../../Components/Common/AnimatedButton";
+import { Link } from "react-router-dom";
 
 const { TabPane } = Tabs;
 
@@ -23,7 +23,9 @@ const TabsSection = () => {
                 We challenge the status quo and adapt practices and solutions to
                 tomorrow’s requirements We challenge the status quo and adapt
               </p>
-              <AnimatedButton className='secondary'/>
+              <Link to="details">
+                <AnimatedButton className="secondary" />
+              </Link>
             </div>
           </div>
         </TabPane>
@@ -40,7 +42,7 @@ const TabsSection = () => {
                 We challenge the status quo and adapt practices and solutions to
                 tomorrow’s requirements We challenge the status quo and adapt
               </p>
-              <AnimatedButton className='secondary'/>
+              <AnimatedButton className="secondary" />
             </div>
           </div>
         </TabPane>
@@ -58,7 +60,6 @@ const TabsSection = () => {
         </TabPane>
       </Tabs>
     </section>
-    
   );
 };
 

@@ -1,0 +1,26 @@
+// ============================================================
+// ============== Home background animation ======
+// ============================================================
+@keyframes backgroundLogo {
+  from {
+    width: 56px;
+    height: 65px;
+  }
+  to {
+    width: 5500px;
+    height: 5500px;
+    top: -33%;
+    left: -100%;
+  }
+}
+
+.animate-logo {
+  position: absolute;
+  z-index: -1;
+  top: 10%;
+  left: 50%;
+
+  animation-name: backgroundLogo;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}

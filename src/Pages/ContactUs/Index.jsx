@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { ReactComponent as Email } from "../../Assets/Icons/mail.svg";
 import { ReactComponent as Mobile } from "../../Assets/Icons/mobile.svg";
 

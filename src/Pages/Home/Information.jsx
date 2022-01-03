@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { ReactComponent as ArrowRightWhite } from "../../Assets/Icons/arrow-right-white.svg";
+import React from "react";
+
 import RightImg from "../../Assets/right-img.png";
 import AnimatedButton from './../../Components/Common/AnimatedButton';
 

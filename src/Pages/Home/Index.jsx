@@ -7,18 +7,21 @@ import Services from "../../Components/Common/Services";
 import CallToAction from "./../../Components/Common/CallToACtion";
 import AnimatedButton from "../../Components/Common/AnimatedButton";
 import { ReactComponent as AnimatedLogo } from "../../Assets/Icons/background-logo.svg";
+import { Link } from "react-router-dom";
 const Index = () => {
   return (
     <div className="home position-relative overflow-hidden">
       {/* animated background logo */}
-      <AnimatedLogo className="animated-logo" />
+      <AnimatedLogo className="animate-logo" />
 
       <section className="hero-wrapper">
-        <div className="content">
-          <h1>ADVANCE</h1>
+        <div className="content w3-animate-zoom">
+          <h1 className="">ADVANCE</h1>
           <h1>INOVATION</h1>
           <h3>END-TO-END CONSULTANCY & SOLUTION PROVIDER</h3>
-          <AnimatedButton className="primary" />
+          <Link to="/contact">
+            <AnimatedButton className="primary" />
+          </Link>
         </div>
       </section>
       {/* 
@@ -38,9 +41,9 @@ const Index = () => {
               We challenge the status quo and adapt practices and solutions to
               tomorrow’s requirements We challenge the status quo and adapt
             </p>
-            <div>
+            <Link to="/details">
               <AnimatedButton className="secondary" />
-            </div>
+            </Link>
           </div>
           <img src={Shubham} alt="" />
         </div>
@@ -58,7 +61,9 @@ const Index = () => {
               We challenge the status quo and adapt practices and solutions to
               tomorrow’s requirements We challenge the status quo and adapt
             </p>
-            <AnimatedButton className="secondary" />
+            <Link to="/details">
+              <AnimatedButton className="secondary" />
+            </Link>
           </div>
         </div>
       </section>

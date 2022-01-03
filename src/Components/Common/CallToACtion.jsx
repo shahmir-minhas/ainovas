@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import { ReactComponent as ArrowRightWhite } from "../../Assets/Icons/arrow-right-white.svg";
+import React from "react";
 import AnimatedButton from './AnimatedButton';
 
 const CallToAction = () => {

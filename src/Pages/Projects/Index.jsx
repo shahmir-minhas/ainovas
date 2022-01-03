@@ -5,7 +5,6 @@ import Aideal from "../../Assets/aideal.png";
 import George from "../../Assets/george.png";
 import Donald from "../../Assets/donald.png";
 import Luka from "../../Assets/luka.png";
-import { ReactComponent as ArrowRightWhite } from "../../Assets/Icons/arrow-right-white.svg";
 import CallToAction from "./../../Components/Common/CallToACtion";
 
 const Index = () => {

@@ -1,45 +1,21 @@
-@keyframes example {
-  from {
-    width: 56px;
-    height: 65px;
-  }
-  to {
-    width: 5500px;
-    height: 5500px;
-    top: -33%;
-    left: -100%;
-  }
-}
-
-.animated-logo {
-  position: absolute;
-  z-index: -1;
-  top: 10%;
-  left: 50%;
-
-  animation-name: example;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
-}
-
 .hero-wrapper {
   padding: 292px 0 223px 0;
   .content {
     h1:first-child {
       color: #ff4d00;
-      font-size: 96px;
+      font-size: 6rem;
       font-weight: bold;
       margin: 0;
     }
     h1:nth-child(2) {
       color: #ff4d00;
-      font-size: 175px;
+      font-size: 10.9375rem;
       font-weight: bold;
       margin: 0;
     }
     h3 {
       color: #6721aa;
-      font-size: 40px;
+      font-size: 2.5rem;
       letter-spacing: 0px;
       margin-bottom: 80px;
     }
@@ -77,6 +53,11 @@
     }
     .ant-tabs-ink-bar {
       background-color: #ff4d00;
+      height: 6px;
+      border-radius: 5px;
+    }
+    .ant-tabs-nav {
+      padding-top: 100px;
     }
   }
   .tab-content-wrapper {
