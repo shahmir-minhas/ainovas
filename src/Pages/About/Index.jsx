@@ -53,7 +53,7 @@ const Index = () => {
           <div className="col-6">
             <ul className="list-unstyled text-start">
               <li>
-                <p className="fw-bold">&#62;</p>
+                <p className="fw-bold">&#8250;</p>
                 <p>
                   We challenge the status quo and adapt practices and solutions
                   to tomorrow’s requirements We challenge the status quo and
@@ -61,7 +61,7 @@ const Index = () => {
                 </p>
               </li>
               <li>
-                <p className="fw-bold">&#62;</p>
+                <p className="fw-bold">&#8250;</p>
                 <p>
                   We challenge the status quo and adapt practices and solutions
                   to tomorrow’s requirements We challenge the status quo and
@@ -69,7 +69,7 @@ const Index = () => {
                 </p>
               </li>
               <li>
-                <p className="fw-bold">&#62;</p>
+                <p className="fw-bold">&#8250;</p>
                 <p>
                   We challenge the status quo and adapt practices and solutions
                   to tomorrow’s requirements We challenge the status quo and
@@ -81,7 +81,7 @@ const Index = () => {
           <div className="col-6">
             <ul className="list-unstyled text-start">
               <li>
-                <p className="fw-bold">&#62;</p>
+                <p className="fw-bold">&#8250;</p>
                 <p>
                   We challenge the status quo and adapt practices and solutions
                   to tomorrow’s requirements We challenge the status quo and
@@ -89,7 +89,7 @@ const Index = () => {
                 </p>
               </li>
               <li>
-                <p className="fw-bold">&#62;</p>
+                <p className="fw-bold">&#8250;</p>
                 <p>
                   We challenge the status quo and adapt practices and solutions
                   to tomorrow’s requirements We challenge the status quo and
@@ -97,7 +97,7 @@ const Index = () => {
                 </p>
               </li>
               <li>
-                <p className="fw-bold">&#62;</p>
+                <p className="fw-bold">&#8250;</p>
                 <p>
                   We challenge the status quo and adapt practices and solutions
                   to tomorrow’s requirements We challenge the status quo and

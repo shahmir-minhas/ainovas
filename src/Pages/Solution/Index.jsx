@@ -50,8 +50,8 @@ const Index = () => {
 
       <div className="digital-transformation text-start">
         <h2 className="pl-200">Digital Transformation & Automation</h2>
-        <div className="row">
-          <div className="col-6 pl-200">
+        <div className="row  background-img-primary">
+          <div className="col-7 pl-200">
             <ul className="list-unstyled text-start">
               <li>
                 <h4>Strategy</h4>
@@ -106,11 +106,9 @@ const Index = () => {
               </li>
             </ul>
           </div>
-          <div className="col-6 background-img-primary"></div>
         </div>
 
-        <div className="row mt-5">
-          <div className="col-5 background-img-secondary"></div>
+        <div className="row background-img-secondary mt-5 justify-content-end">
           <div className="col-7 pr-178 pt-180">
             <h2>Digital Operation</h2>
             <ul className="list-unstyled text-start">
