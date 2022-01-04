@@ -1,3 +1,15 @@
-<svg id="Component_24_1" data-name="Component 24 – 1" xmlns="http://www.w3.org/2000/svg" width="43.92" height="43.92" viewBox="0 0 43.92 43.92">
-  <path id="Path_696" data-name="Path 696" d="M441.49,605.882H420.724a11.736,11.736,0,0,0-11.577,11.823v20.274A11.736,11.736,0,0,0,420.724,649.8H441.49a11.737,11.737,0,0,0,11.577-11.823V617.705A11.737,11.737,0,0,0,441.49,605.882Z" transform="translate(-409.147 -605.882)" fill="#e84e8b"/>
+<svg id="Component_50_1" data-name="Component 50 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43.921" height="43.921" viewBox="0 0 43.921 43.921">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.12" stop-color="#0065a1"/>
+      <stop offset="1" stop-color="#0070a8"/>
+    </linearGradient>
+  </defs>
+  <g id="Component_21_1" data-name="Component 21 – 1">
+    <path id="Path_697" data-name="Path 697" d="M441.46,438.152H420.694a11.736,11.736,0,0,0-11.577,11.823v20.274a11.736,11.736,0,0,0,11.577,11.823H441.46a11.737,11.737,0,0,0,11.577-11.823V449.975A11.737,11.737,0,0,0,441.46,438.152Z" transform="translate(-409.117 -438.152)" fill="url(#linear-gradient)"/>
+  </g>
+  <g id="Group_54" data-name="Group 54" transform="translate(11.376 10.265)">
+    <path id="Path_698" data-name="Path 698" d="M432.884,466.976h4.71v15.14h-4.71Zm2.356-7.526a2.729,2.729,0,1,1-2.73,2.729,2.729,2.729,0,0,1,2.73-2.729" transform="translate(-432.51 -459.45)" fill="#fff"/>
+    <path id="Path_699" data-name="Path 699" d="M449.183,474.663h4.51v2.07h.065a4.943,4.943,0,0,1,4.452-2.446c4.764,0,5.645,3.135,5.645,7.213v8.3H459.15V482.44c0-1.756-.03-4.015-2.445-4.015-2.449,0-2.822,1.914-2.822,3.889V489.8h-4.7Z" transform="translate(-441.148 -467.136)" fill="#fff"/>
+  </g>
 </svg>

@@ -5,7 +5,7 @@ import CallToAction from "./../../Components/Common/CallToACtion";
 
 const Index = () => {
   return (
-    <div className="about">
+    <section className="about">
       <div className="about__banner">
         <h1>About</h1>
       </div>
@@ -117,7 +117,7 @@ const Index = () => {
         call to action  
      */}
       <CallToAction />
-    </div>
+    </section>
   );
 };
 

@@ -9,132 +9,130 @@ import CallToAction from "./../../Components/Common/CallToACtion";
 
 const Index = () => {
   return (
-    <>
-      <div className="projects-wrapper">
-        <div className="projects-wrapper__banner">
-          <h1>Projects</h1>
-        </div>
-        <div className="projects-wrapper__content-cards">
-          <p className="projects-discription">
-            We challenge the status quo and adapt practices and solutions to
-            tomorrow’s requirements We challenge the status quo and adapt
-          </p>
-          <div className="row">
-            <div className="col-4">
-              <div className="card ms-auto ">
-                <div className="img-holder">
-                  <img src={Sajad} alt="" />
-                </div>
-                <div className="card-content">
-                  <h5>
-                    Blockchain base <br />
-                    System
-                  </h5>
-                  <p>
-                    We challenge the status quo and adapt practices and
-                    solutions to tomorrow’s requirements We challenge the status
-                    quo and adapt
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-4">
-              <div className="card mx-auto">
-                <div className="img-holder">
-                  <img src={Ramon} alt="" />
-                </div>
-                <div className="card-content">
-                  <h5>
-                    Blockchain base <br />
-                    System
-                  </h5>
-                  <p>
-                    We challenge the status quo and adapt practices and
-                    solutions to tomorrow’s requirements We challenge the status
-                    quo and adapt
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-4">
-              <div className="card me-auto">
-                <div className="img-holder">
-                  <img src={Aideal} alt="" />
-                </div>
-                <div className="card-content">
-                  <h5>
-                    Blockchain base <br />
-                    System
-                  </h5>
-                  <p>
-                    We challenge the status quo and adapt practices and
-                    solutions to tomorrow’s requirements We challenge the status
-                    quo and adapt
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row mt-100">
-            <div className="col-4">
-              <div className="card ms-auto">
-                <div className="img-holder">
-                  <img src={George} alt="" />
-                </div>
-                <div className="card-content">
-                  <h5>
-                    Blockchain base <br />
-                    System
-                  </h5>
-                  <p>
-                    We challenge the status quo and adapt practices and
-                    solutions to tomorrow’s requirements We challenge the status
-                    quo and adapt
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-4">
-              <div className="card mx-auto">
-                <div className="img-holder">
-                  <img src={Donald} alt="" />
-                </div>
-                <div className="card-content">
-                  <h5>
-                    Blockchain base <br />
-                    System
-                  </h5>
-                  <p>
-                    We challenge the status quo and adapt practices and
-                    solutions to tomorrow’s requirements We challenge the status
-                    quo and adapt
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-4">
-              <div className="card me-auto">
-                <div className="img-holder">
-                  <img src={Luka} alt="" />
-                </div>
-                <div className="card-content">
-                  <h5>
-                    Blockchain base <br />
-                    System
-                  </h5>
-                  <p>
-                    We challenge the status quo and adapt practices and
-                    solutions to tomorrow’s requirements We challenge the status
-                    quo and adapt
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <CallToAction />
+    <section className="projects-wrapper">
+      <div className="projects-wrapper__banner">
+        <h1>Projects</h1>
       </div>
-    </>
+      <div className="projects-wrapper__content-cards">
+        <p className="projects-discription">
+          We challenge the status quo and adapt practices and solutions to
+          tomorrow’s requirements We challenge the status quo and adapt
+        </p>
+        <div className="row">
+          <div className="col-4">
+            <div className="card ms-auto ">
+              <div className="img-holder">
+                <img src={Sajad} alt="" />
+              </div>
+              <div className="card-content">
+                <h5>
+                  Blockchain base <br />
+                  System
+                </h5>
+                <p>
+                  We challenge the status quo and adapt practices and solutions
+                  to tomorrow’s requirements We challenge the status quo and
+                  adapt
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-4">
+            <div className="card mx-auto">
+              <div className="img-holder">
+                <img src={Ramon} alt="" />
+              </div>
+              <div className="card-content">
+                <h5>
+                  Blockchain base <br />
+                  System
+                </h5>
+                <p>
+                  We challenge the status quo and adapt practices and solutions
+                  to tomorrow’s requirements We challenge the status quo and
+                  adapt
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-4">
+            <div className="card me-auto">
+              <div className="img-holder">
+                <img src={Aideal} alt="" />
+              </div>
+              <div className="card-content">
+                <h5>
+                  Blockchain base <br />
+                  System
+                </h5>
+                <p>
+                  We challenge the status quo and adapt practices and solutions
+                  to tomorrow’s requirements We challenge the status quo and
+                  adapt
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row mt-100">
+          <div className="col-4">
+            <div className="card ms-auto">
+              <div className="img-holder">
+                <img src={George} alt="" />
+              </div>
+              <div className="card-content">
+                <h5>
+                  Blockchain base <br />
+                  System
+                </h5>
+                <p>
+                  We challenge the status quo and adapt practices and solutions
+                  to tomorrow’s requirements We challenge the status quo and
+                  adapt
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-4">
+            <div className="card mx-auto">
+              <div className="img-holder">
+                <img src={Donald} alt="" />
+              </div>
+              <div className="card-content">
+                <h5>
+                  Blockchain base <br />
+                  System
+                </h5>
+                <p>
+                  We challenge the status quo and adapt practices and solutions
+                  to tomorrow’s requirements We challenge the status quo and
+                  adapt
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-4">
+            <div className="card me-auto">
+              <div className="img-holder">
+                <img src={Luka} alt="" />
+              </div>
+              <div className="card-content">
+                <h5>
+                  Blockchain base <br />
+                  System
+                </h5>
+                <p>
+                  We challenge the status quo and adapt practices and solutions
+                  to tomorrow’s requirements We challenge the status quo and
+                  adapt
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <CallToAction />
+    </section>
   );
 };
 

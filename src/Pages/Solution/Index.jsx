@@ -8,7 +8,7 @@ import { ReactComponent as GreaterThen } from "../../Assets/Icons/ic_code_24px.s
 import CallToAction from "./../../Components/Common/CallToACtion";
 const Index = () => {
   return (
-    <div className="solution">
+    <section className="solution">
       <div className="solution__banner">
         <h1>Solutions</h1>
       </div>
@@ -153,7 +153,7 @@ const Index = () => {
       </div>
 
       <CallToAction />
-    </div>
+    </section>
   );
 };
 

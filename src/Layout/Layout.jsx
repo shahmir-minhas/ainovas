@@ -47,9 +47,9 @@ const Layout = ({ children }) => {
       {children}
       <footer className="footer">
         <div className="footer__top-bar d-flex">
-          <div>
+          <div className="text-start">
             <Logo className="logo" />
-            <div className="mt-3">
+            <div className="mt-5">
               <Twitter className="me-3" />
               <Facebook className="me-3" />
               <Linkedin className="me-3" />
@@ -58,7 +58,7 @@ const Layout = ({ children }) => {
             </div>
           </div>
           <div className="d-flex">
-            <ul className="list-unstyled">
+            <ul className="">
               <li>
                 <h4>Quick Links</h4>
               </li>
@@ -86,7 +86,7 @@ const Layout = ({ children }) => {
               <li>+923122245679</li>
               <li>xyz123@gmail.com</li>
             </ul>
-            <ul>
+            <ul className="">
               <li>
                 <h4>Location</h4>
               </li>

@@ -57,6 +57,8 @@
         margin-left: 75px;
       }
       .gt-icon {
+        min-width: 15px;
+        min-height: 24px;
         width: 15px;
         height: 24px;
         margin-right: 66px;
@@ -72,9 +74,9 @@
       opacity: 1;
     }
     .background-img-secondary {
-        background: transparent url("../../Assets/Component 34 – 1.png") 0% 0%
-          no-repeat padding-box;
-        opacity: 1;
-      }
+      background: transparent url("../../Assets/Component 34 – 1.png") 0% 0%
+        no-repeat padding-box;
+      opacity: 1;
+    }
   }
 }

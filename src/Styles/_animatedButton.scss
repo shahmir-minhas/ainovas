@@ -12,23 +12,20 @@ $ternary: #ffffff;
   background: transparent;
   position: relative;
   transition: all 0.5s;
+  width: 124px;
 }
 
 @mixin animated-btn-primary {
-  width: 124px;
   border: 2px solid $primary;
 }
 @mixin animated-btn-secondary {
-  width: 124px;
   border: 2px solid $secondary;
 }
 
 @mixin animated-btn-ternary {
-  width: 124px;
   border: 2px solid $ternary;
 }
 @mixin animated-btn-back {
-  width: 124px;
   border: 2px solid $primary;
 }
 
@@ -201,5 +198,14 @@ $ternary: #ffffff;
       right: 15px;
       transition: all 0.5s;
     }
+  }
+}
+// ==================================================================
+// ==========================  UTILITIES =====================
+// ==================================================================
+
+.contact-content-white {
+  &::after {
+    content: "Contact Us";
   }
 }

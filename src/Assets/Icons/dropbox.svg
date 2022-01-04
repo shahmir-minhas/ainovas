@@ -1,3 +1,12 @@
-<svg id="Component_25_1" data-name="Component 25 – 1" xmlns="http://www.w3.org/2000/svg" width="43.921" height="43.92" viewBox="0 0 43.921 43.92">
-  <path id="Path_700" data-name="Path 700" d="M757.073,116.612v20.767A11.736,11.736,0,0,0,768.9,148.955H789.17a11.736,11.736,0,0,0,11.823-11.577V116.612a11.736,11.736,0,0,0-11.823-11.577H768.9A11.736,11.736,0,0,0,757.073,116.612Z" transform="translate(-757.073 -105.035)" fill="#007ee5"/>
+<svg id="Component_52_1" data-name="Component 52 – 1" xmlns="http://www.w3.org/2000/svg" width="43.921" height="43.92" viewBox="0 0 43.921 43.92">
+  <g id="Component_23_1" data-name="Component 23 – 1">
+    <path id="Path_700" data-name="Path 700" d="M757.073,116.612v20.767A11.736,11.736,0,0,0,768.9,148.955H789.17a11.736,11.736,0,0,0,11.823-11.577V116.612a11.736,11.736,0,0,0-11.823-11.577H768.9A11.736,11.736,0,0,0,757.073,116.612Z" transform="translate(-757.073 -105.035)" fill="#007ee5"/>
+  </g>
+  <g id="g3022" transform="translate(9.613 11.168)">
+    <path id="polygon8" d="M784.339,128.211l-7.319,4.779,5.061,4.053,7.38-4.557Z" transform="translate(-777.02 -128.211)" fill="#fff"/>
+    <path id="polygon10" d="M777.02,150.589l7.319,4.779,5.122-4.275-7.38-4.557Z" transform="translate(-777.02 -137.705)" fill="#fff"/>
+    <path id="polygon12" d="M802.834,151.093l5.122,4.275,7.319-4.779-5.061-4.053Z" transform="translate(-790.393 -137.705)" fill="#fff"/>
+    <path id="polygon14" d="M815.274,132.99l-7.319-4.779-5.122,4.275,7.38,4.557Z" transform="translate(-790.393 -128.211)" fill="#fff"/>
+    <path id="polygon16" d="M794.981,157.9l-5.136,4.262-2.2-1.435v1.609l7.335,4.4,7.335-4.4v-1.609l-2.2,1.435Z" transform="translate(-782.525 -143.592)" fill="#fff"/>
+  </g>
 </svg>
