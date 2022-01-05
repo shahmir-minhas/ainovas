@@ -81,6 +81,7 @@
   .detail-section {
     .content {
       text-align: right;
+      margin-right: 79px;
     }
   }
   // =============================================
@@ -93,6 +94,9 @@
     }
     .info-box-secondary {
       text-align: right;
+      &__content-one {
+        padding: 104px 95px 77px 42px;
+      }
     }
   }
   // =============================================
@@ -117,6 +121,14 @@
   .difference-section {
     li {
       text-align: right;
+      p:first-child {
+        margin-right: 0;
+        margin-left: 49px;
+      }
+      p:last-child {
+        margin-right: 0;
+        margin-left: 100px;
+      }
     }
   }
 
@@ -134,6 +146,7 @@
       margin-right: 75px !important;
     }
     .pl-200 {
+      padding-left: 0px !important;
       padding-right: 200px;
     }
     .pr-178 {
@@ -143,6 +156,7 @@
     .gt-icon {
       margin-right: 0 !important;
       margin-left: 66px;
+      transform: rotate(180deg) !important;
     }
     li {
       text-align: right;

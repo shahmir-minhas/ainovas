@@ -74,7 +74,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-        <div className="row mt-100">
+        <div className="row">
           <div className="col-4 p-c-l">
             <div className="card">
               <div className="img-holder">
