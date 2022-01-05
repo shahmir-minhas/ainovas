@@ -206,7 +206,7 @@
   &__card {
     padding: 30px 52px 49px 51px;
     background: transparent;
-    left: 0;
+    left: 10px;
 
     .tri-icon {
       width: 101px;
@@ -228,6 +228,7 @@
     background-color: #ffffff;
     text-align: left;
     margin-left: 100px;
+    box-shadow: 0px 3px 15px #00000005;
   }
   .triangle:before,
   .triangle:after {
@@ -238,9 +239,9 @@
   .triangle,
   .triangle:before,
   .triangle:after {
-    width: 16em;
-    height: 16em;
-    border-top-right-radius: 30%;
+    width: 18em;
+    height: 18em;
+    border-top-right-radius: 60%;
   }
 
   .triangle {
