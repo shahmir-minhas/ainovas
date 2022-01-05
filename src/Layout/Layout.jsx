@@ -9,8 +9,8 @@ import { ReactComponent as Dropbox } from "../Assets/Icons/dropbox.svg";
 
 const Layout = ({ children }) => {
   return (
-    <main dir={false ? "ltr" : "rtl"}>
-      <nav className="topbar d-flex justify-content-between align-items-center">
+    <main dir={true ? "ltr" : "rtl"}>
+      <nav className="navigation-bar d-flex justify-content-between align-items-center">
         <Link to="/">
           <Logo className="logo" />
         </Link>
@@ -44,12 +44,14 @@ const Layout = ({ children }) => {
           </ul>
         </div>
       </nav>
+
       {children}
+
       <footer className="footer">
         <div className="footer__top-bar d-flex">
           <div className="text-start">
             <Logo className="logo" />
-            <div className="">
+            <div className="w-300">
               <Twitter className="me-3 mt-5" />
               <Facebook className="me-3 mt-5" />
               <Linkedin className="me-3 mt-5" />
@@ -57,7 +59,7 @@ const Layout = ({ children }) => {
               <Dropbox className="me-3 mt-5" />
             </div>
           </div>
-          <div className="d-flex justify-content-end">
+          <div className="d-flex ">
             <ul className="">
               <li>
                 <h4>Quick Links</h4>

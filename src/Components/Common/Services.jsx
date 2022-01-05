@@ -12,12 +12,12 @@ const Services = () => {
       <div className="heading mb-5">
         <h1>Our Services</h1>
       </div>
-      <div className="row justify-content-center height-550 mt-5">
-        <div className="col-3">
-          <div className="position-relative">
+      <div className="d-flex justify-content-center height-550 mt-5">
+        <div className="flex-1">
+          <div className="position-relative triangle-card ms-auto">
             <div className="triangle"></div>
             <div className="services__card position-absolute top-0">
-              <Goal />
+              <Goal className="tri-icon" />
               <h5>We Pioneer</h5>
               <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -25,11 +25,11 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="col-3">
-          <div className="position-relative">
+        <div className="flex-1">
+          <div className="position-relative triangle-card mx-auto">
             <div className="triangle"></div>
             <div className="services__card position-absolute top-0">
-              <MprtarBoard />
+              <MprtarBoard className="tri-icon" />
               <h5>We Learn and Evolve</h5>
               <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -37,11 +37,11 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="col-3">
-          <div className="position-relative">
+        <div className="flex-1">
+          <div className="position-relative triangle-card me-auto">
             <div className="triangle"></div>
             <div className="services__card position-absolute top-0">
-              <Integration />
+              <Integration className="tri-icon" />
               <h5>We embrace integrity</h5>
               <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -50,12 +50,13 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="row justify-content-center height-550 mt-5">
-        <div className="col-3">
-          <div className="position-relative">
+
+      <div className="d-flex justify-content-center height-550 mt-5">
+        <div className="flex-1">
+          <div className="position-relative triangle-card ms-auto">
             <div className="triangle"></div>
             <div className="services__card position-absolute top-0">
-              <Invention />
+              <Invention className="tri-icon" />
               <h5>We Pioneer</h5>
               <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -63,11 +64,11 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="col-3">
-          <div className="position-relative">
+        <div className="flex-1">
+          <div className="position-relative triangle-card mx-auto">
             <div className="triangle"></div>
             <div className="services__card position-absolute top-0">
-              <Elevator />
+              <Elevator className="tri-icon" />
               <h5>We Learn and Evolve</h5>
               <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -75,11 +76,11 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="col-3">
-          <div className="position-relative">
+        <div className="flex-1">
+          <div className="position-relative triangle-card me-auto">
             <div className="triangle"></div>
             <div className="services__card position-absolute top-0">
-              <Precision />
+              <Precision className="tri-icon" />
               <h5>We embrace integrity</h5>
               <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed

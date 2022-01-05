@@ -40,8 +40,8 @@ const Information = () => {
 
       <div className="row">
         <div className="col-6 p-0">
-          <div className="info-box-secondary d-flex">
-            <div className="info-box-secondary__content-one">
+          <div className="info-box-secondary row">
+            <div className="info-box-secondary__content-one col-6">
               <h5>Demo Text</h5>
               <span>Dec 12,2021</span>
               <p>
@@ -51,13 +51,17 @@ const Information = () => {
                 justo duo dolores et
               </p>
             </div>
-            <img src={RightImg} alt="" className="info-box-img" />
+            <div className="col-6">
+              <img src={RightImg} alt="" className="info-box-img" />
+            </div>
           </div>
         </div>
         <div className="col-6 p-0">
-          <div className="info-box-secondary d-flex">
-            <img src={RightImg} alt="" className="info-box-img" />
-            <div className="info-box-secondary__content-two">
+          <div className="info-box-secondary row">
+            <div className="col-6">
+              <img src={RightImg} alt="" className="info-box-img" />
+            </div>
+            <div className="info-box-secondary__content-two col-6">
               <h5>Demo Text</h5>
               <span>Dec 12,2021</span>
               <p>

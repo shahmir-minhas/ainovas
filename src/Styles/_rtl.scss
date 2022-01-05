@@ -33,14 +33,17 @@
 }
 
 * [dir="rtl"] {
-  // **************** LAYOUT ****************>>>>>>>>>>>>>>>> LAYOUT
-  // **************** Navbar ****************>>>>>>>>>>>>>>>> NAVBAR
-  .topbar {
+  // **************** LAYOUT ****************<<<< LAYOUT >>>>
+  .navigation-bar {
     .navigation {
       margin-left: 0;
       margin-right: 90px;
     }
+    ul {
+      padding: 0;
+    }
   }
+
   .footer {
     &__top-bar {
       div:first-child {
@@ -50,13 +53,17 @@
           margin-right: 1em !important;
         }
       }
-      li {
-        text-align: right;
+      ul {
+        margin-left: 0px;
+        margin-right: 90px;
+        li {
+          text-align: right;
+        }
       }
     }
   }
 
-  // **************** HOME PAGE ****************>>>>>>>>>>>>>>>> PAGE
+  // **************** HOME PAGE ***************<<<< PAGE >>>>
 
   // =============================================
   // ================ Tabs SECTION ===============
@@ -95,7 +102,7 @@
   .services {
     direction: ltr;
   }
-  // **************** Details SUBPAGE ***********>>>>>>>>>>>>>>>> PAGE
+  // **************** Details SUBPAGE ***********<<<< PAGE >>>>
   // =============================================
   // ================ Detals Page ===============
   // =============================================
@@ -105,7 +112,7 @@
     }
   }
 
-  // **************** ABOUT PAGE ****************>>>>>>>>>>>>>>>> PAGE
+  // **************** ABOUT PAGE ****************<<<< PAGE >>>>
 
   .difference-section {
     li {
@@ -113,7 +120,7 @@
     }
   }
 
-  // **************** Solution PAGE ****************>>>>>>>>>>>>>>>> PAGE
+  // **************** Solution PAGE *************<<<< PAGE >>>>
 
   // =============================================
   // ================ Digital Transformation SECTION
@@ -153,7 +160,7 @@
     }
   }
 
-  // **************** Projet PAGE ****************>>>>>>>>>>>>>>>> PAGE
+  // **************** Projet PAGE ****************<<<< PAGE >>>>
 
   .projects-wrapper {
     .p-c-l {
@@ -169,7 +176,7 @@
     }
   }
 
-  // **************** Animated Btn ****************>>>>>>>>>>>>>>>> Animation
+  // **************** Animated Btn ****************<<<< ANIMATION >>>>
 
   .animated-button-primary {
     @include animated-btn-rtl;
