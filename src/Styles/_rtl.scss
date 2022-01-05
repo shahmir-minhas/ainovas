@@ -222,6 +222,11 @@
     @include animated-btn-rtl;
     &::before {
       content: "Back";
+      left: -85px;
+    }
+    &:hover,
+    :focus {
+      width: 184px;
     }
   }
 

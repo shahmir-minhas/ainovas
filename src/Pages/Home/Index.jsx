@@ -67,14 +67,14 @@ const Index = () => {
           </div>
         </div>
       </section>
-      {/* 
-            OTHER INFORMATION 
-        */}
+      
+      {/* OTHER INFORMATION */}
       <Information />
+
       {/* SERVICES */}
-
       <Services />
-
+      
+      {/* Call to Action */}
       <CallToAction />
     </div>
   );

@@ -47,16 +47,30 @@ const TabsSection = () => {
           </div>
         </TabPane>
         <TabPane tab="Stock Market" key="3">
-          Content of Tab Pane 3
+          <div className="tab-content-wrapper d-flex justify-content-center align-items-center">
+            <img src={BlockChainImg} alt="" />
+            <div className="tab-content">
+              <h3>
+                Blockchain base <br />
+                Market
+              </h3>
+              <small>Dec 12,2021</small>
+              <p>
+                We Stock Mrket the status quo and adapt practices and solutions
+                to tomorrow’s requirements We challenge the status quo and adapt
+              </p>
+              <AnimatedButton className="secondary" />
+            </div>
+          </div>
         </TabPane>
         <TabPane tab="Robotics" key="4">
-          Content of Tab Pane 3
+          Content of Tab Pane 4
         </TabPane>
         <TabPane tab="Cars" key="5">
-          Content of Tab Pane 3
+          Content of Tab Pane 5
         </TabPane>
         <TabPane tab="Goods" key="6">
-          Content of Tab Pane 3
+          Content of Tab Pane 6
         </TabPane>
       </Tabs>
     </section>
