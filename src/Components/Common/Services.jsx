@@ -12,8 +12,8 @@ const Services = () => {
       <div className="heading mb-5">
         <h1>Our Services</h1>
       </div>
-      <div className="row height-550 mt-5">
-        <div className="col-4">
+      <div className="row justify-content-center height-550 mt-5">
+        <div className="col-3">
           <div className="position-relative">
             <div className="triangle"></div>
             <div className="services__card position-absolute top-0">
@@ -25,7 +25,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-3">
           <div className="position-relative">
             <div className="triangle"></div>
             <div className="services__card position-absolute top-0">
@@ -37,7 +37,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-3">
           <div className="position-relative">
             <div className="triangle"></div>
             <div className="services__card position-absolute top-0">
@@ -50,8 +50,8 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="row height-550">
-        <div className="col-4">
+      <div className="row justify-content-center height-550 mt-5">
+        <div className="col-3">
           <div className="position-relative">
             <div className="triangle"></div>
             <div className="services__card position-absolute top-0">
@@ -63,7 +63,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-3">
           <div className="position-relative">
             <div className="triangle"></div>
             <div className="services__card position-absolute top-0">
@@ -75,7 +75,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-3">
           <div className="position-relative">
             <div className="triangle"></div>
             <div className="services__card position-absolute top-0">

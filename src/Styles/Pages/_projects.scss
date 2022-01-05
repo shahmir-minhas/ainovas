@@ -1,8 +1,9 @@
 .projects-wrapper {
+  overflow: hidden;
   &__banner {
     height: 211px;
     background: #ff4d00;
-    
+
     padding: 54px 0;
     h1 {
       font-size: 70px;
@@ -11,6 +12,15 @@
     }
   }
   &__content-cards {
+    .p-c-l {
+      padding: 50px 0 50px 100px;
+    }
+    .p-c-r {
+      padding: 50px 100px 50px 0px;
+    }
+    .p-50 {
+      padding: 50px;
+    }
     .projects-discription {
       color: #5a5a5a;
       font-size: 30px;
@@ -18,8 +28,8 @@
       margin: 97px auto 130px auto;
     }
     .card {
-      height: 744px;
-      width: 536px;
+      // height: 744px;
+      // width: 536px;
       background: #f5f5f5 0% 0% no-repeat padding-box;
       box-shadow: 0px 3px 6px #00000029;
       border-radius: 65px 65px 65px 65px;
@@ -27,14 +37,18 @@
       text-align: left;
 
       .img-holder {
-        width: 536px;
-        height: 341px;
+        width: 100%;
+        // height: 341px;
         background: lightgray;
         border-radius: 65px 65px 0px 0px;
+        img {
+          width: 100%;
+        }
       }
 
       .card-content {
         padding: 34px 68px 94px 45px;
+
         h5 {
           font-size: 40px;
           color: #1d1d1d;

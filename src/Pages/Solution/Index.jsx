@@ -14,8 +14,8 @@ const Index = () => {
       </div>
       <div className="experiance-section">
         <h1>EXTENSIVE EXPERIENCE AND EXPERTISE</h1>
-        <div className="row justify-content-between text-start">
-          <div className="col-5">
+        <div className="row justify-content-around text-start">
+          <div className="col-4">
             <h4>Digital Transformation & Automation</h4>
             <div className="d-flex">
               <div className="text-center mr-60">
@@ -32,7 +32,7 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="col-5">
+          <div className="col-4">
             <h4>Digital Transformation & Automation</h4>
             <div className="d-flex">
               <div className="text-center mr-60">

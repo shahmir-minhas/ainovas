@@ -13,6 +13,8 @@ $ternary: #ffffff;
   position: relative;
   transition: all 0.5s;
   width: 124px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 @mixin animated-btn-primary {
@@ -31,26 +33,18 @@ $ternary: #ffffff;
 
 @mixin primary-content {
   color: $primary;
-  font-size: 25px;
-  font-weight: bold;
   content: "Contact Us";
 }
 @mixin secondary-content {
   color: $secondary;
-  font-size: 25px;
-  font-weight: bold;
   content: "Read More";
 }
 @mixin ternary-content {
   color: $ternary;
-  font-size: 25px;
-  font-weight: bold;
   content: "Read More";
 }
 @mixin back-content {
   color: $primary;
-  font-size: 25px;
-  font-weight: bold;
   content: "Back";
 }
 
@@ -60,7 +54,9 @@ $ternary: #ffffff;
 
 .animated-button-primary {
   @include animated-btn;
+
   @include animated-btn-primary;
+
   &::after {
     @include primary-content;
     margin-left: 28px;

@@ -19,8 +19,8 @@ const Index = () => {
           tomorrow’s requirements We challenge the status quo and adapt
         </p>
         <div className="row">
-          <div className="col-4">
-            <div className="card ms-auto ">
+          <div className="col-4 p-c-l">
+            <div className="card">
               <div className="img-holder">
                 <img src={Sajad} alt="" />
               </div>
@@ -37,12 +37,12 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="col-4">
-            <div className="card mx-auto">
+          <div className="col-4 p-50">
+            <div className="card">
               <div className="img-holder">
                 <img src={Ramon} alt="" />
               </div>
-              <div className="card-content">
+              <div className="card-content ">
                 <h5>
                   Blockchain base <br />
                   System
@@ -55,8 +55,8 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="col-4">
-            <div className="card me-auto">
+          <div className="col-4 p-c-r">
+            <div className="card">
               <div className="img-holder">
                 <img src={Aideal} alt="" />
               </div>
@@ -75,8 +75,8 @@ const Index = () => {
           </div>
         </div>
         <div className="row mt-100">
-          <div className="col-4">
-            <div className="card ms-auto">
+          <div className="col-4 p-c-l">
+            <div className="card">
               <div className="img-holder">
                 <img src={George} alt="" />
               </div>
@@ -93,8 +93,8 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="col-4">
-            <div className="card mx-auto">
+          <div className="col-4 p-50">
+            <div className="card">
               <div className="img-holder">
                 <img src={Donald} alt="" />
               </div>
@@ -111,8 +111,8 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="col-4">
-            <div className="card me-auto">
+          <div className="col-4 p-c-r">
+            <div className="card">
               <div className="img-holder">
                 <img src={Luka} alt="" />
               </div>

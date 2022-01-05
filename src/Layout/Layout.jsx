@@ -9,7 +9,7 @@ import { ReactComponent as Dropbox } from "../Assets/Icons/dropbox.svg";
 
 const Layout = ({ children }) => {
   return (
-    <main>
+    <main dir={false ? "ltr" : "rtl"}>
       <nav className="topbar d-flex justify-content-between align-items-center">
         <Link to="/">
           <Logo className="logo" />
@@ -49,15 +49,15 @@ const Layout = ({ children }) => {
         <div className="footer__top-bar d-flex">
           <div className="text-start">
             <Logo className="logo" />
-            <div className="mt-5">
-              <Twitter className="me-3" />
-              <Facebook className="me-3" />
-              <Linkedin className="me-3" />
-              <Dribble className="me-3" />
-              <Dropbox />
+            <div className="">
+              <Twitter className="me-3 mt-5" />
+              <Facebook className="me-3 mt-5" />
+              <Linkedin className="me-3 mt-5" />
+              <Dribble className="me-3 mt-5" />
+              <Dropbox className="me-3 mt-5" />
             </div>
           </div>
-          <div className="d-flex">
+          <div className="d-flex justify-content-end">
             <ul className="">
               <li>
                 <h4>Quick Links</h4>
@@ -86,16 +86,13 @@ const Layout = ({ children }) => {
               <li>+923122245679</li>
               <li>xyz123@gmail.com</li>
             </ul>
-            <ul className="">
+            <ul className="w-200">
               <li>
                 <h4>Location</h4>
               </li>
               <li>
-                Lorem ipsum dolor sit amet,
-                <br /> consetetur sadipscing elitr,
-                <br /> sed diam nonumy eirmod
-                <br /> tempor invidunt ut labore
-                <br /> et dolore magna
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam
               </li>
             </ul>
           </div>

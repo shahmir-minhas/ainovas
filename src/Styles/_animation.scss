@@ -3,14 +3,19 @@
 // ============================================================
 @keyframes backgroundLogo {
   from {
-    width: 56px;
-    height: 65px;
+    transform: scale(0.2, 0.2);
   }
   to {
-    width: 5500px;
-    height: 5500px;
-    top: -33%;
-    left: -100%;
+    // width: 5500px;
+    // height: 5500px;
+    transform: scale(90, 90);
+    width: 343.75 rem;
+    height: 343.75 rem;
+    top: 7%;
+    left: 40%;
+    // transform: scale(90, 90);
+    // top: 450px;
+    // left: 850px;
   }
 }
 
@@ -42,4 +47,12 @@
   animation-name: zoom-in-zoom-out;
   animation-duration: 4s;
   animation-fill-mode: forwards;
+}
+
+// ============================================================
+// ============== Information section ======
+// ============================================================
+.info-box-secondary:hover {
+  transform: scale(1.02, 1.02);
+  transition: all 0.5s;
 }

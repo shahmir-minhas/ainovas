@@ -142,7 +142,7 @@
 .information-section {
   .info-box {
     height: 525px;
-    padding: 129px 390px 55px 95px;
+    padding: 129px 0 55px 95px;
     background: transparent url("../../Assets/info-background.png") 0% 0%
       no-repeat padding-box;
     background-size: cover;
@@ -163,6 +163,7 @@
     }
   }
   .info-box-secondary {
+    overflow: hidden;
     height: 569px;
     text-align: left;
     h5 {
@@ -180,8 +181,7 @@
       font-weight: bold;
     }
     .info-box-img {
-      width: 415px;
-      height: 569px;
+      width: 100%;
     }
     &__content-one {
       padding: 104px 42px 77px 95px;
@@ -195,18 +195,17 @@
 // ========================== Our Services =====================
 // =============================================================
 .services {
-  padding: 0 250px;
   .height-550 {
     height: 550px;
   }
   &__card {
     padding: 57px 52px 49px 51px;
     background: transparent;
-    margin-bottom: 90px;
+    // margin-bottom: 90px;
     left: 0;
 
     width: 431px;
-    height: 383px;
+    // height: 383px;
     h5 {
       color: #1d1d1d;
       font-size: 28px;

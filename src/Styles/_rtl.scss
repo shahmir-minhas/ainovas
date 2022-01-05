@@ -1,0 +1,208 @@
+@mixin animated-btn-rtl {
+  text-align: right;
+  &::after {
+    margin-left: 0px;
+    margin-right: 28px;
+    position: static;
+    transition: all 0.5s;
+    content: "\2190";
+    font-size: 50px;
+  }
+  &::before {
+    position: absolute;
+    left: -140px;
+    width: 150px;
+    font-size: 25px;
+    text-align: left;
+    transition: all 0.5s;
+  }
+  &:hover,
+  :focus {
+    width: 246px;
+    transition: all 0.5s;
+    &::after {
+      margin: 0;
+      transition: all 0.5s;
+    }
+    &::before {
+      position: absolute;
+      left: 15px;
+      transition: all 0.5s;
+    }
+  }
+}
+
+* [dir="rtl"] {
+  // **************** LAYOUT ****************>>>>>>>>>>>>>>>> LAYOUT
+  // **************** Navbar ****************>>>>>>>>>>>>>>>> NAVBAR
+  .topbar {
+    .navigation {
+      margin-left: 0;
+      margin-right: 90px;
+    }
+  }
+  .footer {
+    &__top-bar {
+      div:first-child {
+        text-align: right !important;
+        svg {
+          direction: ltr;
+          margin-right: 1em !important;
+        }
+      }
+      li {
+        text-align: right;
+      }
+    }
+  }
+
+  // **************** HOME PAGE ****************>>>>>>>>>>>>>>>> PAGE
+
+  // =============================================
+  // ================ Tabs SECTION ===============
+  // =============================================
+  .tabs-section {
+    .tab-content {
+      margin: 0;
+      margin-right: 79px;
+      text-align: right;
+    }
+  }
+  // =============================================
+  // ================ Details SECTION ===============
+  // =============================================
+  .detail-section {
+    .content {
+      text-align: right;
+    }
+  }
+  // =============================================
+  // ================ Information SECTION ===============
+  // =============================================
+  .information-section {
+    .info-box {
+      text-align: right;
+      padding: 129px 95px 55px 0px;
+    }
+    .info-box-secondary {
+      text-align: right;
+    }
+  }
+  // =============================================
+  // ================ Services SECTION ===============
+  // =============================================
+
+  .services {
+    direction: ltr;
+  }
+  // **************** Details SUBPAGE ***********>>>>>>>>>>>>>>>> PAGE
+  // =============================================
+  // ================ Detals Page ===============
+  // =============================================
+  .details {
+    &__content {
+      text-align: right;
+    }
+  }
+
+  // **************** ABOUT PAGE ****************>>>>>>>>>>>>>>>> PAGE
+
+  .difference-section {
+    li {
+      text-align: right;
+    }
+  }
+
+  // **************** Solution PAGE ****************>>>>>>>>>>>>>>>> PAGE
+
+  // =============================================
+  // ================ Digital Transformation SECTION
+  // =============================================
+
+  .digital-transformation {
+    h2 {
+      text-align: right;
+    }
+    h4 {
+      margin-right: 75px !important;
+    }
+    .pl-200 {
+      padding-right: 200px;
+    }
+    .pr-178 {
+      padding-right: 0 !important;
+      padding-left: 178px !important;
+    }
+    .gt-icon {
+      margin-right: 0 !important;
+      margin-left: 66px;
+    }
+    li {
+      text-align: right;
+    }
+    .background-img-primary {
+      background: transparent url("../Assets/Component 34 – 1.png") 0% 0%
+        no-repeat padding-box;
+
+      background-position: left;
+    }
+    .background-img-secondary {
+      background: transparent url("../Assets/Component 33 – 1.png") 0% 0%
+        no-repeat padding-box;
+      background-position: right;
+    }
+  }
+
+  // **************** Projet PAGE ****************>>>>>>>>>>>>>>>> PAGE
+
+  .projects-wrapper {
+    .p-c-l {
+      padding: 50px 100px 50px 0px;
+    }
+    .p-c-r {
+      padding: 50px 0px 50px 100px;
+    }
+    .card {
+      &-content {
+        text-align: right;
+      }
+    }
+  }
+
+  // **************** Animated Btn ****************>>>>>>>>>>>>>>>> Animation
+
+  .animated-button-primary {
+    @include animated-btn-rtl;
+    &::before {
+      content: "Contact us";
+    }
+  }
+  .animated-button-secondary {
+    @include animated-btn-rtl;
+    &::before {
+      content: "Read More";
+    }
+  }
+  .animated-button-ternary {
+    @include animated-btn-rtl;
+    &::before {
+      content: "Read More";
+    }
+  }
+
+  .contact-content-white {
+    @include animated-btn-rtl;
+    &::before {
+      content: "Contact Us";
+    }
+  }
+
+  .animated-button-back {
+    @include animated-btn-rtl;
+    &::before {
+      content: "Back";
+    }
+  }
+
+  // ================ END ===============
+}

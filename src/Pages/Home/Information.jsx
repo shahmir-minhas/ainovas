@@ -1,7 +1,7 @@
 import React from "react";
 
 import RightImg from "../../Assets/right-img.png";
-import AnimatedButton from './../../Components/Common/AnimatedButton';
+import AnimatedButton from "./../../Components/Common/AnimatedButton";
 
 const Information = () => {
   return (
@@ -14,20 +14,26 @@ const Information = () => {
           <div className="info-box">
             <h5>Demo Text</h5>
             <p>
-              We challenge the status quo and adapt practices and solutions to
-              tomorrow’s requirements We challenge the status quo and adapt
+              We challenge the status quo and adapt
+              <br /> practices and solutions to tomorrow’s
+              <br /> requirements We challenge the status
+              <br />
+              quo and adapt
             </p>
-            <AnimatedButton className='ternary'/>
+            <AnimatedButton className="ternary" />
           </div>
         </div>
         <div className="col-6 p-0">
           <div className="info-box">
             <h5>Demo Text</h5>
             <p>
-              We challenge the status quo and adapt practices and solutions to
-              tomorrow’s requirements We challenge the status quo and adapt
+              We challenge the status quo and adapt
+              <br /> practices and solutions to tomorrow’s
+              <br /> requirements We challenge the status
+              <br />
+              quo and adapt
             </p>
-            <AnimatedButton className='ternary'/>
+            <AnimatedButton className="ternary" />
           </div>
         </div>
       </div>
