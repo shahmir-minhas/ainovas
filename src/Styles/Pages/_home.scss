@@ -1,5 +1,11 @@
+.home {
+  padding-top: 112px;
+}
 .hero-wrapper {
-  padding: 292px 0 223px 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   .content {
     h1:first-child {
       color: #ff4d00;
@@ -20,7 +26,7 @@
       margin-bottom: 80px;
     }
     button {
-      margin: auto;
+      margin-left: 35%;
     }
   }
 }
@@ -32,14 +38,18 @@
   background-color: #ffffff;
   //   Ant tabs
   .ant-tabs {
+    .ant-tabs-nav-list {
+    
+    }
     .ant-tabs-tab {
       margin-right: 89px;
       margin-left: 0;
+      width: 100%;
     }
     .ant-tabs-tab-active {
       color: #23093b;
       font-size: 30px;
-      font-weight: bold;
+      // font-weight: bold;
       opacity: 1;
       .ant-tabs-tab-btn {
         opacity: 1;

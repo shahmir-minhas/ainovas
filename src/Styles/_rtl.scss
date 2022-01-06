@@ -23,6 +23,7 @@
     &::after {
       margin: 0;
       transition: all 0.5s;
+      width: 190px;
     }
     &::before {
       position: absolute;
@@ -68,6 +69,12 @@
   // =============================================
   // ================ Tabs SECTION ===============
   // =============================================
+  .hero-wrapper {
+    button {
+      margin-left: 0;
+      margin-right: 35%;
+    }
+  }
   .tabs-section {
     .tab-content {
       margin: 0;
@@ -113,6 +120,10 @@
   .details {
     &__content {
       text-align: right;
+      button {
+        margin: 159px auto 190px;
+        margin-right: 45%;
+      }
     }
   }
 
@@ -223,10 +234,12 @@
     &::before {
       content: "Back";
       left: -85px;
+      transition: all 0.5s;
     }
     &:hover,
     :focus {
       width: 184px;
+      transition: all 0.5s;
     }
   }
 

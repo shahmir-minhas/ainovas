@@ -9,7 +9,7 @@ import { ReactComponent as Dropbox } from "../Assets/Icons/dropbox.svg";
 
 const Layout = ({ children }) => {
   return (
-    <main dir={false ? "ltr" : "rtl"}>
+    <main dir={true ? "ltr" : "rtl"}>
       <nav className="navigation-bar d-flex justify-content-between align-items-center">
         <Link to="/">
           <Logo className="logo" />

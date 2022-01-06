@@ -2,8 +2,14 @@ import React from "react";
 import Aideal from "../../Assets/aideal-hw.png";
 import CallToAction from "../../Components/Common/CallToACtion";
 import AnimatedButton from "./../../Components/Common/AnimatedButton";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 const Details = () => {
+  const navigate = useNavigate();
+
+  const handleclick = () => {
+    console.log("back is called");
+    navigate(-1);
+  };
   return (
     <div className="details">
       <img src={Aideal} alt="" />
@@ -66,9 +72,9 @@ const Details = () => {
           exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
           commodo consequat.
         </p>
-        <Link to="/">
-          <AnimatedButton className="back" />
-        </Link>
+        <div onClick={handleclick} className="w-100 ">
+          <AnimatedButton className="back me-per-50" />
+        </div>
       </div>
       <CallToAction />
     </div>
