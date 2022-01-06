@@ -7,6 +7,8 @@
     transition: all 0.5s;
     content: "\2190";
     font-size: 50px;
+    position: absolute;
+    right: 10px;
   }
   &::before {
     position: absolute;
@@ -24,10 +26,11 @@
       margin: 0;
       transition: all 0.5s;
       width: 190px;
+      right: 38px;
     }
     &::before {
       position: absolute;
-      left: 15px;
+      left: 32px;
       transition: all 0.5s;
     }
   }
@@ -112,6 +115,15 @@
 
   .services {
     direction: ltr;
+  }
+  // =============================================
+  // ================ Call to action SECTION ===============
+  // =============================================
+
+  .call-to-action {
+    button {
+      margin-right: 45%;
+    }
   }
   // **************** Details SUBPAGE ***********<<<< PAGE >>>>
   // =============================================
@@ -240,6 +252,17 @@
     :focus {
       width: 184px;
       transition: all 0.5s;
+      &::after {
+        margin: 0;
+        transition: all 0.5s;
+        width: 190px;
+        right: 38px;
+      }
+      &::before {
+        position: absolute;
+        right: 5px;
+        transition: all 0.5s;
+      }
     }
   }
 

@@ -12,7 +12,7 @@ const Services = () => {
       <div className="heading mb-5">
         <h1>Our Services</h1>
       </div>
-      <div className="d-flex justify-content-center height-550 mt-5">
+      <div className="d-flex justify-content-center height-550 mt-5 flex-sm-wrap">
         <div className="flex-1">
           <div className="position-relative triangle-card ms-auto">
             <div className="triangle"></div>
@@ -51,7 +51,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="d-flex justify-content-center height-550 mt-5">
+      <div className="d-flex justify-content-center height-550 mt-5 flex-sm-wrap">
         <div className="flex-1">
           <div className="position-relative triangle-card ms-auto">
             <div className="triangle"></div>

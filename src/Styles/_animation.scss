@@ -36,7 +36,7 @@
 
 @keyframes zoom-in-zoom-out {
   0% {
-    transform: scale(0.3, 0.3);
+    transform: scale(0.2, 0.2);
   }
   100% {
     transform: scale(1, 1);
@@ -45,7 +45,7 @@
 
 .animate-hero {
   animation-name: zoom-in-zoom-out;
-  animation-duration: 4s;
+  animation-duration: 5s;
   animation-fill-mode: forwards;
 }
 

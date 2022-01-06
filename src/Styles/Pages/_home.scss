@@ -38,9 +38,6 @@
   background-color: #ffffff;
   //   Ant tabs
   .ant-tabs {
-    .ant-tabs-nav-list {
-    
-    }
     .ant-tabs-tab {
       margin-right: 89px;
       margin-left: 0;
@@ -91,12 +88,6 @@
         font-size: 20px;
         margin: 38px 0 31px 0;
       }
-
-      span {
-        font-size: 25px;
-        color: #1a0330;
-        margin-left: 23px;
-      }
     }
   }
 }
@@ -137,6 +128,10 @@
     }
   }
 }
+
+// =============================================================
+// ========================== Other Information =====================
+// =============================================================
 .heading {
   padding: 147px 0 117px;
   h1 {
@@ -146,9 +141,6 @@
     font-weight: bold;
   }
 }
-// =============================================================
-// ========================== Other Information =====================
-// =============================================================
 .information-section {
   .info-box {
     height: 525px;
@@ -289,6 +281,6 @@
     margin-left: 23px;
   }
   button {
-    margin: auto;
+    margin-left: 45%;
   }
 }

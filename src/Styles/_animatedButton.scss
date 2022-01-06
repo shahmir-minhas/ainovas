@@ -71,6 +71,8 @@ $ternary: #ffffff;
     font-size: 50px;
     text-align: left;
     transition: all 0.5s;
+    position: absolute;
+    left: 38px;
   }
   &:hover,
   :focus {
@@ -81,9 +83,7 @@ $ternary: #ffffff;
       transition: all 0.5s;
     }
     &::before {
-      position: absolute;
-      left: 15px;
-      transition: all 0.5s;
+      left: 38px;
     }
   }
 }
@@ -107,6 +107,8 @@ $ternary: #ffffff;
     font-size: 50px;
     text-align: left;
     transition: all 0.5s;
+    position: absolute;
+    left: 35px;
   }
   &:hover,
   :focus {
@@ -117,9 +119,7 @@ $ternary: #ffffff;
       transition: all 0.5s;
     }
     &::before {
-      position: absolute;
-      left: 15px;
-      transition: all 0.5s;
+      left: 35px;
     }
   }
 }
@@ -143,6 +143,8 @@ $ternary: #ffffff;
     font-size: 50px;
     text-align: left;
     transition: all 0.5s;
+    position: absolute;
+    left: 35px;
   }
   &:hover,
   :focus {
@@ -153,9 +155,7 @@ $ternary: #ffffff;
       transition: all 0.5s;
     }
     &::before {
-      position: absolute;
-      left: 15px;
-      transition: all 0.5s;
+      left: 35px;
     }
   }
 }
@@ -180,6 +180,8 @@ $ternary: #ffffff;
     font-size: 50px;
     text-align: left;
     transition: all 0.5s;
+    position: absolute;
+    right: 35px;
   }
   &:hover,
   :focus {
@@ -190,9 +192,7 @@ $ternary: #ffffff;
       transition: all 0.5s;
     }
     &::before {
-      position: absolute;
-      right: 15px;
-      transition: all 0.5s;
+      right: 35px;
     }
   }
 }

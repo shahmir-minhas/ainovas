@@ -29,42 +29,38 @@ const Index = () => {
       */}
       <TabsSection />
 
-      <section className="detail-section border">
-        <div className="d-flex justify-content-center align-items-center">
-          <div className="content">
-            <h3>
-              Blockchain base <br />
-              System
-            </h3>
-            <small>Dec 12,2021</small>
-            <p>
-              We challenge the status quo and adapt practices and solutions to
-              tomorrow’s requirements We challenge the status quo and adapt
-            </p>
-            <Link to="/details">
-              <AnimatedButton className="secondary" />
-            </Link>
-          </div>
-          <img src={Shubham} alt="" />
+      <section className="detail-section border d-flex justify-content-center align-items-center">
+        <div className="content">
+          <h3>
+            Blockchain base <br />
+            System
+          </h3>
+          <small>Dec 12,2021</small>
+          <p>
+            We challenge the status quo and adapt practices and solutions to
+            tomorrow’s requirements We challenge the status quo and adapt
+          </p>
+          <Link to="/details">
+            <AnimatedButton className="secondary" />
+          </Link>
         </div>
+        <img src={Shubham} alt="" />
       </section>
-      <section className="detail-section border">
-        <div className="d-flex justify-content-center align-items-center">
-          <img src={BlockChain} alt="" />
-          <div className="content">
-            <h3>
-              Blockchain base <br />
-              System
-            </h3>
-            <small>Dec 12,2021</small>
-            <p>
-              We challenge the status quo and adapt practices and solutions to
-              tomorrow’s requirements We challenge the status quo and adapt
-            </p>
-            <Link to="/details">
-              <AnimatedButton className="secondary" />
-            </Link>
-          </div>
+      <section className="detail-section border d-flex justify-content-center align-items-center flex-col-reverse">
+        <img src={BlockChain} alt="" />
+        <div className="content">
+          <h3>
+            Blockchain base <br />
+            System
+          </h3>
+          <small>Dec 12,2021</small>
+          <p>
+            We challenge the status quo and adapt practices and solutions to
+            tomorrow’s requirements We challenge the status quo and adapt
+          </p>
+          <Link to="/details">
+            <AnimatedButton className="secondary" />
+          </Link>
         </div>
       </section>
 
